@@ -1,0 +1,29 @@
+{
+  "name": "challenges-w2-ch3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bingo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maicolt401/202204-W2CH3-maicol-torres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maicolt401/202204-W2CH3-maicol-torres/issues"
+  },
+  "homepage": "https://github.com/Maicolt401/202204-W2CH3-maicol-torres#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^7.0.0",
+    "jest": "^27.5.1"
+  }
+}
