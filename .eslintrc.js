@@ -3,6 +3,7 @@ module.exports = {
     es2021: true,
     node: true,
     jest: true,
+    browser: true,
   },
   extends: ["airbnb-base", "prettier"],
   parserOptions: {
@@ -11,5 +12,14 @@ module.exports = {
   rules: {
     "no-plusplus": "off",
     "no-restricted-syntax": "off",
+    "no-shadow": [
+      "error",
+      {
+        builtinGlobals: false,
+        hoist: "functions",
+        allow: [],
+        ignoreOnInitialization: false,
+      },
+    ],
   },
 };
